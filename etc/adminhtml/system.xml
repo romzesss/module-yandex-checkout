@@ -43,12 +43,12 @@
                     </field>
                     <field id="environment" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="0">
                         <label>Environment</label>
-                        <source_model>Magento\Braintree\Model\Adminhtml\Source\Environment</source_model>
+                        <source_model>PayPal\Braintree\Model\Adminhtml\Source\Environment</source_model>
                         <config_path>payment/yandex_cc/environment</config_path>
                     </field>
                     <field id="payment_action" translate="label" type="select" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="0">
                         <label>Payment Action</label>
-                        <source_model>Magento\Braintree\Model\Adminhtml\Source\PaymentAction</source_model>
+                        <source_model>PayPal\Braintree\Model\Adminhtml\Source\PaymentAction</source_model>
                         <config_path>payment/yandex_cc/payment_action</config_path>
                     </field>
                     <field id="shop_id" translate="label" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="0">
