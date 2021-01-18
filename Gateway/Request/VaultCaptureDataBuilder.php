@@ -5,7 +5,7 @@
  */
 namespace Kenboy\YandexCheckout\Gateway\Request;
 
-use Magento\Braintree\Gateway\SubjectReader;
+use PayPal\Braintree\Gateway\SubjectReader;
 use Magento\Payment\Gateway\Request\BuilderInterface;
 use Magento\Payment\Helper\Formatter;
 
